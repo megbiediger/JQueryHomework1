@@ -28,7 +28,17 @@ function swapHeadlines(){
   $('h1').text(h2);
   $('h2').text(h1);
 }
-  
+
+function noSubhed(){
+  $('h2').fadeOut();
+  $('h3').fadeOut();
+}
+
+function undo(){
+  $('h2').show();
+  $('h3').show();
+}
+
 
 
 
