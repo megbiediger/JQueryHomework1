@@ -17,6 +17,21 @@ function changeHeadlines(){
   $('h2').text('A Wikipedia Article');
 }
 
+function logHeadlines(){
+  console.log ($('h1').text());
+  console.log ($('h2').text());
+}
+
+function swapHeadlines(){
+  var h1 = $('h1').text();
+  var h2 = $('h2').text();
+  $('h1').text(h2);
+  $('h2').text(h1);
+}
+  
+
+
+
 </script>
 
 </head>
